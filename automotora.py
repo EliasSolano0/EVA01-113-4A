@@ -9,7 +9,7 @@ class Automotora:
 
     def mostrarVehiculos(self):
         print("Automotora:", self.nombre)
-        print("Vehículos registrados:")
+        print(f"Vehículos registrados: {self.vehiculos}")
 
         for vehiculo in self.vehiculos:
             vehiculo.mostrarInfo()
